@@ -4,6 +4,8 @@
 About this coding3 final assignment, I want to do a deep learning project to use the dataset of gesture recognition to change the filter of the camera image. I want to use this model to recognize camera image gestures and show different filters to change the camera image according to different gestures. I have made this project in visual studio code.
 
 ## Process
+As soon as I started training, I found that the accuracy of my training results was too low, only about 50, and the dataset was more accurate on the training set but very low on the validation set. Then I thought that maybe the model was overfitted during training, so I used some data augmentation and normalization, added EarlyStopping callbacks to avoid overfitting, and added a learning rate scheduler. Then it was much better.
+Then I set the gesture to #10 as a green filter and #02 as a red filter to prove that my verification was accurate. Then I added lines depicting close-ups of the hand in the filter.py file to make the display screen more explicit.
 
 ## Machine learning algorithms:
 
