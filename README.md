@@ -34,6 +34,7 @@ This code is for training a deep learning model (specifically EfficientNetB0) fo
 ## Existing code base: 
 I will refer to some projects and tutorials from GitHub to speed up the development process. For example, I might use the code of this gesture recognition project as a reference:
 > https://github.com/opencv/opencv/tree/master/samples/dnn
+
 In addition, I will also look at the official OpenCV documentation to learn how to apply filters:
 > https://docs.opencv.org/4.x/
 
